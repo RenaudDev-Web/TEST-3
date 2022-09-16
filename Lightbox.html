@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>Lightbox Gallery</title>
+    <link rel="stylesheet" type="text/css" href="lightbox2/dist/css/lightbox.min.css">
+    <script src="lightbox2/dist/js/lightbox-plus-jquery.min.js">
+    </script>
+    <style>
+        body {
+            text-align: center;
+        }
+         
+        h2 {
+            color: green;
+        }
+         
+        .gallery {
+            margin: 10px 40px;
+        }
+         
+        .gallery img {
+            width: auto;
+            height: auto;
+            transition: 1s;
+            padding: 5px;
+            
+        }
+         
+        .gallery img:hover {
+            filter: drop-shadow(4px 4px 6px gray);
+            transform: scale(1);
+        }
+    </style>
+</head>
+ 
+<body>
+    <h2>Fonction Light box</h2>
+    <b>ClickOn_Image Lightbox</b>
+    <div class="gallery">
+        <a href="/medias/atelier_ecriture_7.jpg"
+           data-lightbox="mygallery">
+            <img src="/medias/atelier_ecriture_7.jpg">
+        </a>
+    </div>
+</body>
+ 
+</html>
